@@ -38,27 +38,6 @@ _Example:_
 
 Your API token you can find on [profile page](https://mailcap.io/setting) in Mailcap application.
 
-## Error codes
-
-- <code>200 OK</code> It's all good bro, you hit the right endpoint with right credentials
-- <code>201 Created</code> New object saved
-- <code>302 Found</code> Wrong url, follow <code>Location</code>
-- <code>400 Bad Request</code> Returns JSON with the error message
-- <code>401 Unauthorized</code> Couldn't authenticate your request
-- <code>403 Forbidden</code> Couldn't authenticate your request
-- <code>404 Not Found</code> No such object
-- <code>405 Method Not Allowed</code> Supplied HTTP method not allowed for this endpoint
-- <code>500 Internal Server Error</code> Something went wrong
-- <code>503 Service Unavailable</code> Your connection is being throttled or the service is down for maintenance
-
-All error messages (response code 400 and up) in the responses follow the following pattern:
-
-    {
-        code: "404",
-        message: "Not found",
-        description: "Not found inbox"
-    }
-
 # Inbox
 
 Describes <code>Inbox</code> object.
@@ -891,5 +870,26 @@ Describes <code>User</code> object.
         token: "118a6501fa46e3aa89f62530d099af97",
         updatedAt: "2015-03-14T22:10:52.862Z",
         username: "support"
+    }
+
+# Error codes
+
+- <code>200 OK</code> It's all good bro, you hit the right endpoint with right credentials
+- <code>201 Created</code> New object saved
+- <code>302 Found</code> Wrong url, follow <code>Location</code>
+- <code>400 Bad Request</code> Returns JSON with the error message
+- <code>401 Unauthorized</code> Couldn't authenticate your request
+- <code>403 Forbidden</code> Couldn't authenticate your request
+- <code>404 Not Found</code> No such object
+- <code>405 Method Not Allowed</code> Supplied HTTP method not allowed for this endpoint
+- <code>500 Internal Server Error</code> Something went wrong
+- <code>503 Service Unavailable</code> Your connection is being throttled or the service is down for maintenance
+
+All error messages (response code 400 and up) in the responses follow the following pattern:
+
+    {
+        code: "404",
+        message: "Not found",
+        description: "Not found inbox"
     }
 
