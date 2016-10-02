@@ -32,31 +32,31 @@ Mailcap API is based on REST principles
 
 ### User
 
-- [**<code>GET</code> /api/v1/user/reset_token**](https://github.com/Mailcap/API/blob/master/v1/user.md#reset_token)
+- [**<code>GET</code> /api/v1/user/reset_token**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#reset_token)
 
 
 ### Inbox
 
-- [**<code>GET</code> /api/v1/inboxes**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#inboxes)
-- [**<code>POST</code> /api/v1/inboxes**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#inbox_create)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#inbox)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#patch_inbox)
-- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#delte_inbox)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/clean**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#clear)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/all_read**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#all_read)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/reset_credentials**](https://github.com/Mailcap/API/blob/master/v1/inbox.md#reset_credentials)
+- [**<code>GET</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes)
+- [**<code>POST</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox_create)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#patch_inbox)
+- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#delte_inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/clean**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#clear)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/all_read**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#all_read)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/reset_credentials**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#reset_credentials)
 
 
 ### Message
 
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages**](https://github.com/Mailcap/API/blob/master/v1/message.md#message)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages?search=**](https://github.com/Mailcap/API/blob/master/v1/message.md#find-messages)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/API/blob/master/v1/message.md#get-one-message-from-inbox)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/API/blob/master/v1/message.md#update-message-attributes-right-now-available-only-read-attribute-for-modification)
-- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/API/blob/master/v1/message.md#delete-message)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/mail.html**](https://github.com/Mailcap/API/blob/master/v1/message.md#message_html)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/body.txt**](https://github.com/Mailcap/API/blob/master/v1/message.md#message_text)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/raw**](https://github.com/Mailcap/API/blob/master/v1/message.md#message_raw)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages?search=**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#find-messages)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-one-message-from-inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#update-message-attributes-right-now-available-only-read-attribute-for-modification)
+- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#delete-message)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/mail.html**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_html)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/body.txt**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_text)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/raw**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_raw)
 
 
 ### Attachment
@@ -64,4 +64,5 @@ Mailcap API is based on REST principles
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/attachments/:file_number/download**](https://github.com/Mailcap/API/blob/master/v1/attachment.md)
 
 ## Contribution
+
 
