@@ -39,7 +39,7 @@ Mailcap API is based on REST principles
 
 - [**<code>GET</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-list-of-inboxes)
 - [**<code>POST</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#create-inbox)
-- [**<code>GET</code> /api/v1/inboxes/stats**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-stats)
+- [**<code>GET</code> /api/v1/inboxes/stats**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-stats-of-inboxes)
 - [**<code>GET</code> /api/v1/inboxes/messages**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-messages)
 - [**<code>GET</code> /api/v1/inboxes/messages?search=**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-find-messages)
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-inbox)
