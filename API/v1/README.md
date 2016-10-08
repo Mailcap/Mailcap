@@ -133,6 +133,69 @@ Describes <code>Inbox</code> object.
           "messages_read_count": 713
      }
 
+## Get messages from all inboxes.
+
+    GET /api/v1/inboxes/messages?search
+
+### Parameters
+
+- _None_
+
+### Errors
+
+- _None_
+
+### Example
+
+**Request**
+
+    GET /api/v1/inboxes/messages?search=read:false&limit=1
+
+**Return**
+
+    [
+        {
+          "inboxes": "54faa5bcdc64b8b975a329a6",
+          "username": "257b4a0177ea9591",
+          "password": "b809c2fc8601e7",
+          "mail": {
+            "html": "<div>asdasd</div>",
+            "text": ",e,e,e,e,",
+            "headers": {
+              "content-type": "multipart/alternative; boundary=\"----sinikael-?=_1-14269658635030.7619828174356371\"",
+              "from": "support@mailcap.io",
+              "to": "test@mailcap.io",
+              "subject": "Sat Mar 21 2015 21:24:23 GMT+0200 (EET)",
+              "x-mailer": "nodemailer (1.3.2; +http://www.nodemailer.com; SMTP/1.0.2[client:1.2.0])",
+              "date": "Sat, 21 Mar 2015 19:24:23 +0000",
+              "message-id": "<1426965863571-bdcb2996-b0084442-8e1ddaa2@mailcap.io>",
+              "mime-version": "1.0"
+            },
+            "subject": "Sat Mar 21 2015 21:24:23 GMT+0200 (EET)",
+            "messageId": "1426965863571-bdcb2996-b0084442-8e1ddaa2@mailcap.io",
+            "priority": "normal",
+            "from": [
+              {
+                "address": "support@mailcap.io",
+                "name": ""
+              }
+            ],
+            "to": [
+              {
+                "address": "test@mailcap.io",
+                "name": ""
+              }
+            ],
+            "date": "2015-03-21T19:24:23.000Z"
+          },
+          "read": false,
+          "timestamp": "1426965863653",
+          "createdAt": "2015-03-21T19:24:23.659Z",
+          "updatedAt": "2015-03-21T19:24:23.659Z",
+          "id": "550dc5671e9d05217e7c0af2"
+        }
+    ]
+
 ## Create inbox
 
     POST /api/v1/inboxes
