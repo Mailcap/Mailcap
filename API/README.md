@@ -37,18 +37,17 @@ Mailcap API is based on REST principles
 
 ### Inbox
 
-- [**<code>GET</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes)
-- [**<code>POST</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-create)
+- [**<code>GET</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-list-of-inboxes)
+- [**<code>POST</code> /api/v1/inboxes**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#create-inbox)
 - [**<code>GET</code> /api/v1/inboxes/stats**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-stats)
 - [**<code>GET</code> /api/v1/inboxes/messages**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-messages)
 - [**<code>GET</code> /api/v1/inboxes/messages?search=**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inboxes-find-messages)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox-edit)
-- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox-delete)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/clean**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox-clear)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/all_read**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox-all-read)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/reset_credentials**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#inbox-reset-credentials)
-
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#update-inbox)
+- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#delete-inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/clean**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#clean-all-messages-emails-from-inbox)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/all_read**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#mark-all-messages-emails-as-read)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/reset_credentials**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#reset-inbox-credentials)
 
 ### Message
 
