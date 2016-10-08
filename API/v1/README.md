@@ -135,11 +135,31 @@ Describes <code>Inbox</code> object.
 
 ## Get messages from all inboxes.
 
-    GET /api/v1/inboxes/messages?search
+    GET /api/v1/inboxes/messages?search=:query
 
 ### Parameters
 
-- _None_
+<table>
+  <tr>
+    <td><b>Parameter</b></td>
+    <td><b>Description</b></td>
+    <td><b>Details</b></td>
+  </tr>
+  <tr>
+    <td><b>inbox_id</b></td>
+    <td>inbox ID (identifier)</td>
+    <td>required</td>
+  </tr>
+  <tr>
+    <td><b>query</b></td>
+    <td>query for search at fields or subject, 
+    separator - ';'
+    not - '!'
+    like - '*'
+    </td>
+    <td>required</td>
+  </tr>
+</table>
 
 ### Errors
 
