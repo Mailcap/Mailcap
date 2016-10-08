@@ -17,7 +17,7 @@ Supported authentication:
 - Browser session
 - API Token
 
-[Read more about authentication](https://github.com/Mailcap/API/blob/master/v1/authentication.md)
+[Read more about authentication](https://github.com/Mailcap/Mailcap/tree/master/API/v1#authentication)
 
 ## Interacting with the API
 
@@ -28,12 +28,12 @@ Mailcap API is based on REST principles
 - update → PATCH /api/v1/inboxes/id
 - delete → DELETE   /api/v1/inboxes/id
 
-[Error codes](https://github.com/Mailcap/API/blob/master/v1/error_codes.md)
+[Error codes](https://github.com/Mailcap/Mailcap/tree/master/API/v1##error-codes)
 
 ### User
 
-- [**<code>GET</code> /api/v1/user/reset_token**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#reset_token)
-
+- [**<code>GET</code> /api/v1/user**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#user)
+- [**<code>GET</code> /api/v1/user/reset_token**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#reset-user-api-token)
 
 ### Inbox
 
