@@ -1,4 +1,4 @@
-# Authentication
+# {#id} Authentication
 
 Mailcap API requires authentication for some endpoints. You can use one of the following authentication methods.
 
