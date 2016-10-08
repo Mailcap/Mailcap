@@ -52,19 +52,19 @@ Mailcap API is based on REST principles
 
 ### Message
 
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages?search=**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#find-messages)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-one-message-from-inbox)
-- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#update-message-attributes-right-now-available-only-read-attribute-for-modification)
-- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#delete-message)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/mail.html**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_html)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/body.txt**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_text)
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/raw**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message_raw)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#messages)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages?search=**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#messages-find)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message)
+- [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-update)
+- [**<code>DELETE</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-delete)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/mail.html**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-html)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/body.txt**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-text)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/raw**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-raw)
 
 
 ### Attachment
 
-- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/attachments/:file_number/download**](https://github.com/Mailcap/API/blob/master/v1/attachment.md)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/attachments/:file_number/download**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#download)
 
 ## Contribution
 
