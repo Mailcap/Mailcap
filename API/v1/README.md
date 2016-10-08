@@ -106,6 +106,32 @@ Describes <code>Inbox</code> object.
         }
     ]
 
+## Get stats of inboxes
+
+    GET /api/v1/stats
+
+### Parameters
+
+- _None_
+
+### Errors
+
+- _None_
+
+### Example
+
+**Request**
+
+    GET /api/v1/stats
+
+**Return**
+
+     {
+          "messages_count": 6778,
+          "messages_unread_count": 6065,
+          "messages_last_sent": "2016-10-08T10:34:43.164Z",
+          "messages_read_count": 713
+     }
 
 ## Create inbox
 
