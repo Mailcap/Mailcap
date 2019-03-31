@@ -55,6 +55,7 @@ Mailcap API is based on REST principles
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#get-one-message-from-inbox)
 - [**<code>PATCH</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#update-message-attributes-right-now-available-only-read-attribute-for-modification)
 - [**<code>DELETE</code> /api/v1/inboxes/:inbox_id/messages/:message_id**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#delete-message)
+- [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/urls**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-html)
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/mail.html**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-html)
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/body.txt**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-text)
 - [**<code>GET</code> /api/v1/inboxes/:inbox_id/messages/:message_id/raw**](https://github.com/Mailcap/Mailcap/tree/master/API/v1#message-raw)
